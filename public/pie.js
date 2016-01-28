@@ -24,7 +24,7 @@ define(function (require) {
         {
           group: 'metrics',
           name: 'metric',
-          title: 'Slice Size',
+          title: '分片大小',
           min: 1,
           max: 1,
           aggFilter: ['sum', 'count', 'cardinality'],
