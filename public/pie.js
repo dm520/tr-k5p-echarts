@@ -22,7 +22,7 @@ define(function (require) {
       hierarchicalData: true,
       schemas: new Schemas([
         {
-          group: '图表',
+          group: 'metrics',
           name: 'metric',
           title: '分片大小',
           min: 1,
