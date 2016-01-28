@@ -4,7 +4,7 @@ define(function (require) {
     var Schemas = Private(require('ui/Vis/Schemas'));
 
     return new VislibVisType({
-      name: 'echarts_pie',
+      name: 'pie',
       title: 'Echarts Pie chart',
       icon: 'fa-pie-chart',
       description: 'Pie charts are ideal for displaying the parts of some whole. For example, sales percentages by department.' +
@@ -22,7 +22,7 @@ define(function (require) {
       hierarchicalData: true,
       schemas: new Schemas([
         {
-          group: '图表',
+          group: 'metrics',
           name: 'metric',
           title: '分片大小',
           min: 1,
